@@ -36,6 +36,7 @@ class Lexer(object):
 
     def error(self):
         raise Exception('Invalid character')
+        
 
     def advance(self):
         self.pos += 1
